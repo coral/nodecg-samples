@@ -1,0 +1,69 @@
+/* ----- Alert ----- */
+
+#alert {
+    color: #f4f4f5;
+    background-color: #f4f4f5;
+    font-family: "AvenirLTStd-Medium",Helvetica,Arial,sans-serif;
+    font-size:20px;
+    line-height: 1.4em;
+    position:absolute;
+    top:0;
+    left:0;
+    width: 0px;
+    transition: width 0.3s linear;
+    -webkit-transition: width 0.3s linear;
+}
+
+#alerttitle {
+    overflow:hidden;
+    color: #f4f4f5;
+    margin: 0.1em 0.1em 0.1em 1em;
+    vertical-align: middle;
+    text-shadow: 0 0 2px rgba(150,150,150,.5);
+}
+
+#alerttitlecontainer {
+    overflow:hidden;
+    background-color: #ffcc28;
+    transition: background-color 0.4s linear;
+    -webkit-transition: background-color 0.4s linear;
+    height: 1.5em;
+}
+
+#exclamation{
+    opacity: 0;
+    display:inline-block;
+    width:20px;
+    height: 20px;
+    background:url('/view/toth-alert/img/exclamation_64.png');
+    background-size: cover;
+    float:right;
+    vertical-align:middle;
+    transition: opacity 150ms linear;
+    -webkit-transition: opacity 150ms linear;
+    margin: 0.15em; /* hack because I'm bad */
+}
+
+#alerttext {
+    overflow: hidden;
+    margin: 0.3em 1em;
+    line-height: 1.6em;
+    font-size: 18px;
+}
+
+#alerttextcontainer {
+    background-color: #f4f4f5;
+    overflow: hidden;
+    height: 0px;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    color: black;
+}
+
+#alert .blue {
+    color: #99ccff;
+}
+
+#alert .red {
+    color: #ff4040;
+}
