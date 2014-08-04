@@ -1,0 +1,14 @@
+{
+  "name": "toth-lowerthird",
+  "version": "0.0.1",
+  "homepage": "http://tipofthehats.org/",
+  "authors": [
+    "Alex Van Camp <email@alexvan.camp>",
+    "Anthony Oetzmann <aironaudio@googlemail.com>"
+  ],
+  "description": "Animated lowerthird with customizable title and body",
+  "resolutions": [
+    "720p"
+  ],
+  "license": "MIT"
+}

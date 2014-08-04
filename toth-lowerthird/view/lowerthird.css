@@ -1,0 +1,56 @@
+#shape {
+  width: 175px;
+  height: 110px;
+  background: url('/view/toth-lowerthird/img/shape.png');
+  background-size: cover;
+  position: absolute;
+  top: 501;
+  left: -190;
+  z-index: 1;
+}
+
+#lowerthird {
+  color: #f4f4f5;
+  background-color: transparent;
+  font-family: "AvenirLTStd-Medium",Helvetica,Arial,sans-serif;
+  font-size:20px;
+  line-height: 1.4em;
+  max-width: 40.5%;
+  min-width: 33%;
+  width: auto;
+  position:absolute;
+  top:100%;
+  left:0;
+  transform: translate( 0%, -120% );
+  -webkit-transform: translate( 0%, -120% );
+}
+
+#lowerthirdtitle {
+  color: #f4f4f5;
+  margin: 0.1em 1em 0.1em 30px;
+  vertical-align: middle;
+  text-shadow: 0 0 2px rgba(150,150,150,.5);
+}
+
+#lowerthirdtitlecontainer {
+  overflow:hidden;
+  position: relative;
+  left: -100%;
+  background-color: #ffcc28;
+  height: 1.5em;
+}
+
+#lowerthirdtext {
+  margin: 0.3em 1em 0.4em 23px;
+  line-height: 1.6em;
+  font-size: 18px;
+}
+
+#lowerthirdtextcontainer {
+  background-color: #f4f4f5;
+  position: relative;
+  overflow: hidden;
+  left: -100%;
+  height: 3.3em;
+  color: black;
+}
