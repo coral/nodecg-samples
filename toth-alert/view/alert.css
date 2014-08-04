@@ -10,8 +10,6 @@
     top:0;
     left:0;
     width: 0px;
-    transition: width 0.3s linear;
-    -webkit-transition: width 0.3s linear;
 }
 
 #alerttitle {
@@ -25,8 +23,6 @@
 #alerttitlecontainer {
     overflow:hidden;
     background-color: #ffcc28;
-    transition: background-color 0.4s linear;
-    -webkit-transition: background-color 0.4s linear;
     height: 1.5em;
 }
 
@@ -39,8 +35,6 @@
     background-size: cover;
     float:right;
     vertical-align:middle;
-    transition: opacity 150ms linear;
-    -webkit-transition: opacity 150ms linear;
     margin: 0.15em; /* hack because I'm bad */
 }
 
@@ -55,15 +49,5 @@
     background-color: #f4f4f5;
     overflow: hidden;
     height: 0px;
-    transition: height 0.5s;
-    -webkit-transition: height 0.5s;
     color: black;
-}
-
-#alert .blue {
-    color: #99ccff;
-}
-
-#alert .red {
-    color: #ff4040;
 }

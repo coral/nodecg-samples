@@ -21,39 +21,39 @@ $.ionSound({
 });
 
 function showAlert (data) {
-  if (data.text) {
-    // play sound - disabled
-    setTimeout(function () {
-      $.ionSound.play("alert_in-v2");
-    }, 0);
-
-
-    $('#alerttext').text('' + data.text + '');
-    $('#alert').css('width', '18.5em');
-    $('#alerttitlecontainer').css('background-color', '#F37424');
-    setTimeout(function () {
-      $('#exclamation').css('opacity', '100');
-    }, 100);
-    setTimeout(function () {
-      $('#alerttextcontainer').css('height', '3.3em');
-    }, 400);
-
-    setTimeout(hideAlert, 7000);
+  if (!data.text) {
+    return;
   }
+
+  $.ionSound.play('alert_in-v2');
+
+  var tl = new TimelineLite({paused: true});
+
+  $('#alerttext').html(data.text);
+
+  //add our tweens to the timeline
+  tl.to($('#alert'), 0.3, {width:"18.5em"});
+  tl.to($('#alerttitlecontainer'), 0.4, {backgroundColor:"#F37424"}, "0");
+  tl.to($('#exclamation'), 0.4, {opacity:"1"}, "0.1");
+  tl.to($('#alerttextcontainer'), 0.5, {height:"3.3em"}, "0.4");
+
+  tl.play();
+
+
+  setTimeout(hideAlert, 7000);
 }
 
 function hideAlert () {
   // play sound
-  $.ionSound.play("alert_out-v2");
+  $.ionSound.play('alert_out-v2');
 
-  $('#alerttextcontainer').css('height', '0');
-  setTimeout(function () {
-    $('#alert').css('width', '0');
-  }, 400);
-  setTimeout(function () {
-    $('#exclamation').css('opacity', '0');
-  }, 1000);
-  setTimeout(function () {
-    $('#alerttitlecontainer').css('background-color', '#ffcc28');
-  }, 2000);
+  var tl = new TimelineLite({paused: true});
+
+  //add our tweens to the timeline
+  tl.to($('#alerttextcontainer'), 0.5, {height:"0"});
+  tl.to($('#alert'), 0.3, {width:"0"}, "0.4");
+  tl.to($('#exclamation'), 0, {opacity:"0"}, "1");
+  tl.to($('#alerttitlecontainer'), 0, {backgroundColor:"#ffcc28"}, "1");
+
+  tl.play();
 }
