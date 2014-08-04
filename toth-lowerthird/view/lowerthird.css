@@ -1,11 +1,19 @@
+#container {
+  width: 1280px;
+  height: 720px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #shape {
   width: 175px;
   height: 110px;
   background: url('/view/toth-lowerthird/img/shape.png');
   background-size: cover;
   position: absolute;
-  top: 501;
-  left: -190;
+  top: 599px;
+  left: -190px;
   z-index: 1;
 }
 
