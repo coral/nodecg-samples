@@ -1,0 +1,14 @@
+{
+  "name": "toth-socialmedia",
+  "version": "0.0.1",
+  "homepage": "http://tipofthehats.org/",
+  "authors": [
+    "Alex Van Camp <email@alexvan.camp>",
+    "Anthony Oetzmann <aironaudio@googlemail.com>"
+  ],
+  "description": "A center-positioned grapic displaying a set of social media links",
+  "resolutions": [
+    "720p"
+  ],
+  "license": "MIT"
+}
