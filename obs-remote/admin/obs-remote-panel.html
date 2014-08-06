@@ -1,0 +1,28 @@
+<div id="obs-remote" class="panel panel-default panel-span-3">
+    <div class="panel-heading">
+        <h3 class="panel-title">OBS Remote test panel</h3>
+        <i class="fa fa-rss"></i>
+    </div>
+    <div class="panel-body">
+        <div class="input-group">
+            <span class="input-group-addon">Address</span>
+            <input type="text" class="form-control" id="obs-remote_address" placeholder="localhost">
+            <span class="input-group-btn">
+                <button class="btn btn-default btn-primary" id="obs-remote_connect">Connect</button>
+            </span>
+        </div>
+        <div style="padding-top: 4px;">
+            Status: <span id="obs-remote_connection-status">?</span>
+        </div>
+        <hr>
+        [scene list, click to switch] | [source list, draggable]<br>
+        <div class="btn-group btn-group-justified" style="padding-top: 8px;">
+            <div class="btn-group" style="padding-right: 2px">
+                <button type="button" class="btn btn-xs btn-primary">Toggle Stream</button>
+            </div>
+            <div class="btn-group" style="padding-left: 2px">
+                <button type="button" class="btn btn-xs btn-default">Toggle Preview</button>
+            </div>
+        </div>
+    </div>
+</div>

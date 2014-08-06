@@ -1,0 +1,13 @@
+{
+  "name": "obs-remote",
+  "version": "0.0.1",
+  "homepage": "",
+  "authors": [
+    "Matt McNamara <matt@mattmcn.com>"
+  ],
+  "description": "An admin panel for controlling OBS remotely",
+  "resolutions": [
+    "*"
+  ],
+  "license": "MIT"
+}
