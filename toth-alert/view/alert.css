@@ -3,38 +3,38 @@
 #alert {
     color: #f4f4f5;
     background-color: #f4f4f5;
-    font-family: "AvenirLTStd-Medium",Helvetica,Arial,sans-serif;
-    font-size:20px;
+    font-family: "AvenirLTStd-Medium", Helvetica, Arial, sans-serif;
+    font-size: 20px;
     line-height: 1.4em;
-    position:absolute;
-    top:0;
-    left:0;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 0px;
 }
 
 #alerttitle {
-    overflow:hidden;
+    overflow: hidden;
     color: #f4f4f5;
     margin: 0.1em 0.1em 0.1em 1em;
     vertical-align: middle;
-    text-shadow: 0 0 2px rgba(150,150,150,.5);
+    text-shadow: 0 0 2px rgba(150, 150, 150, .5);
 }
 
 #alerttitlecontainer {
-    overflow:hidden;
+    overflow: hidden;
     background-color: #ffcc28;
     height: 1.5em;
 }
 
-#exclamation{
+#exclamation {
     opacity: 0;
-    display:inline-block;
-    width:20px;
+    display: inline-block;
+    width: 20px;
     height: 20px;
-    background:url('/view/toth-alert/img/exclamation_64.png');
+    background: url('/view/toth-alert/img/exclamation_64.png');
     background-size: cover;
-    float:right;
-    vertical-align:middle;
+    float: right;
+    vertical-align: middle;
     margin: 0.15em; /* hack because I'm bad */
 }
 

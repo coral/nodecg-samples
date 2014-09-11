@@ -1,121 +1,121 @@
 body {
-  padding: 0px;
-  margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 #container {
-  position: absolute;
-  margin: 0px;
-  padding: 0px;
-  width: 1280;
-  height: 720;
-  overflow: hidden;
-  font-size: 18px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 1280;
+    height: 720;
+    overflow: hidden;
+    font-size: 18px;
 }
 
 #links {
-  color: #f4f4f5;
-  background-color: transparent;
-  font-family: "AvenirLTStd-Medium",Helvetica,Arial,sans-serif;
-  font-size:26px;
-  line-height: 36px;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  width: 0px;
-  overflow-x: hidden;
+    color: #f4f4f5;
+    background-color: transparent;
+    font-family: "AvenirLTStd-Medium", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    line-height: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0px;
+    overflow-x: hidden;
 }
 
 #linktitle {
-  overflow: hidden;
-  color: #f4f4f5;
-  background: #F37424;
-  padding: 2px 30px;
-  vertical-align: middle;
-  height: 40px;
-  text-shadow: 0 0 2px rgba(150,150,150,.5);
+    overflow: hidden;
+    color: #f4f4f5;
+    background: #F37424;
+    padding: 2px 30px;
+    vertical-align: middle;
+    height: 40px;
+    text-shadow: 0 0 2px rgba(150, 150, 150, .5);
 }
 
 #linktext {
-  font-size:24px;
-  position: relative;
-  z-index: -1;
-  overflow: hidden;
-  background-color: #f4f4f5;
-  color: black;
-  height: 204px;
-  top: -238px; /* no idea why percentage doesn't work here */
-  padding: 16px 30px;
-  line-height: 40px;
-  white-space: nowrap;
+    font-size: 24px;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    background-color: #f4f4f5;
+    color: black;
+    height: 204px;
+    top: -238px; /* no idea why percentage doesn't work here */
+    padding: 16px 30px;
+    line-height: 40px;
+    white-space: nowrap;
 }
 
 #hattycontainer {
-  perspective: 300px;
-  -webkit-perspective: 300px;
-  perspective-origin: 50% 50%;
-  -webkit-perspective-origin: 50% 50%;
-  z-index: 2;
-  position: absolute;
-  top: 188px;
-  right: 405px;
+    perspective: 300px;
+    -webkit-perspective: 300px;
+    perspective-origin: 50% 50%;
+    -webkit-perspective-origin: 50% 50%;
+    z-index: 2;
+    position: absolute;
+    top: 188px;
+    right: 405px;
 }
 
 #hatty {
-  width: 155px;
-  height: 110px;
-  background: url('/view/toth-socialmedia/img/hatty_shadow.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  vertical-align: middle;
-  opacity: 0;
-  -webkit-transform: translate3d(0px, 100px, -100px) rotateX(-90deg);
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 5s;
+    width: 155px;
+    height: 110px;
+    background: url('/view/toth-socialmedia/img/hatty_shadow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    opacity: 0;
+    -webkit-transform: translate3d(0px, 100px, -100px) rotateX(-90deg);
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 5s;
 }
 
 #twitter {
-  display:inline-block;
-  width:32px;
-  height: 32px;
-  background:url('/view/toth-socialmedia/img/twitter.png');
-  background-size: cover;
-  vertical-align:middle;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('/view/toth-socialmedia/img/twitter.png');
+    background-size: cover;
+    vertical-align: middle;
 }
 
 #youtube {
-  display:inline-block;
-  width:32px;
-  height: 32px;
-  background:url('/view/toth-socialmedia/img/youtube.png');
-  background-size: cover;
-  vertical-align:middle;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('/view/toth-socialmedia/img/youtube.png');
+    background-size: cover;
+    vertical-align: middle;
 }
 
 #steamgroup {
-  display:inline-block;
-  width:32px;
-  height: 32px;
-  background:url('/view/toth-socialmedia/img/steam.png');
-  background-size: cover;
-  vertical-align:middle;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('/view/toth-socialmedia/img/steam.png');
+    background-size: cover;
+    vertical-align: middle;
 }
 
 #website {
-  display:inline-block;
-  width:32px;
-  height: 32px;
-  background:url('/view/toth-socialmedia/img/website.png');
-  background-size: cover;
-  vertical-align:middle;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('/view/toth-socialmedia/img/website.png');
+    background-size: cover;
+    vertical-align: middle;
 }
 
 #onestep {
-  display:inline-block;
-  width:32px;
-  height: 32px;
-  background:url('/view/toth-socialmedia/img/onestep_stylized.png');
-  background-size: cover;
-  vertical-align:middle;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('/view/toth-socialmedia/img/onestep_stylized.png');
+    background-size: cover;
+    vertical-align: middle;
 }
