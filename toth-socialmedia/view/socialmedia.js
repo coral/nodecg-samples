@@ -1,4 +1,4 @@
-$(nodecg).ready(function() {
+$(document).on('ncgReady', function() {
   // pass data straight into our function that handles it, preferred for simplicity
   nodecg.listenFor('socialmediaIn', showLinks);
   nodecg.listenFor('socialmediaOut', hideLinks);

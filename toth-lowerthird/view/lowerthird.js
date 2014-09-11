@@ -1,4 +1,4 @@
-$(nodecg).ready(function() {
+$(document).on('ncgReady', function() {
   // pass data straight into our function that handles it, preferred for simplicity
   nodecg.listenFor('lowerthirdIn', showLowerThird);
   nodecg.listenFor('lowerthirdOut', function(data) {
@@ -36,7 +36,7 @@ $(nodecg).ready(function() {
 
       tl.play();
     }
-  }4
+  }
 
   function hideLowerThird() {
     // play sound
