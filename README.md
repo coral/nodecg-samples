@@ -1,4 +1,4 @@
 nodecg-samples
 ==============
 
-Sample packages for use with NodeCG
+Sample bundles for use with NodeCG
