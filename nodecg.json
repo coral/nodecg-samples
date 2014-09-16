@@ -1,0 +1,11 @@
+{
+  "name": "gxl-credits",
+  "version": "0.0.1",
+  "homepage": "",
+  "authors": [],
+  "description": "",
+  "resolutions": [
+    "*"
+  ],
+  "license": "Private"
+}
