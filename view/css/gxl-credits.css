@@ -19,6 +19,7 @@ body {
   position: absolute;
   width: 1280px;
   height: 720px;
+  background: url(https://dl.dropboxusercontent.com/u/6635591/process.jpeg) no-repeat;
 }
 #bounds {
   width: 100%;
@@ -38,6 +39,7 @@ body {
   color: #ffffff;
   text-shadow: rgba(0, 0, 0, 0.8) 1px 2px 3px;
   -webkit-mask-image: -webkit-linear-gradient(top, #000000 98%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0;
 }
 #mainContainer::before {
   content: '';
@@ -69,5 +71,5 @@ body {
   padding-right: 3px;
 }
 #staff li {
-  padding-top: 8px;
+  padding: 4px 0;
 }
