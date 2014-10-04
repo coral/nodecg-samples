@@ -24,11 +24,7 @@ $(document).ready(function() {
         ]
     };
 
-    $('#gxl-credits_smallTest').click(function() {
-        nodecg.sendMessage('newGroup', smallGroup);
-    });
-
-    $('#gxl-credits_largeTest').click(function() {
-        nodecg.sendMessage('newGroup', largeGroup);
+    $('#gxl-credits_fullTest').click(function() {
+        nodecg.sendMessage('newCredits', [smallGroup, largeGroup]);
     });
 });

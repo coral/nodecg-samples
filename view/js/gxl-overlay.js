@@ -1,5 +1,5 @@
 $(document).on('ncgReady', function() {
-    nodecg.listenFor('newGroup', updateGroup);
+    nodecg.listenFor('newCredits', updateCredits);
 
     var title = $('#title');
     var staff = $('#staff');
@@ -7,19 +7,45 @@ $(document).on('ncgReady', function() {
     var creditsTimeline = new TimelineLite();
     var staffTimeline = new TimelineLite();
 
-    function updateGroup(group) {
-        var groupTitle = group.title;
-        var groupStaff = group.staff;
+    function updateCredits(credits) {
+        creditsTimeline.clear().seek(0);
+        staffTimeline.clear().seek(0);
 
-        creditsTimeline.call(updateElements, [groupTitle, groupStaff])
-            .to($('#mainContainer'), 1, {
+        // Add logo anims
+        creditsTimeline
+            .to($('.event'), 1, {
                 opacity: 1
             })
-            .call(scrollStaff)
-            .to($('#mainContainer'), 1, {
+            .to($('.event'), 1, {
                 opacity: 0
             }, "+=4")
-            .call(resetScroll);
+            .to($('.sponsor'), 1, {
+                opacity: 1
+            }, "+=1")
+            .to($('.sponsor'), 1, {
+                opacity: 0
+            }, "+=4")
+            .to($('.cast'), 1, {
+                opacity: 1
+            }, "+=1")
+            .to($('.cast'), 1, {
+                opacity: 0
+            }, "+=4");
+
+        credits.forEach(function(group) {
+            var groupTitle = group.title;
+            var groupStaff = group.staff;
+
+            creditsTimeline.call(updateElements, [groupTitle, groupStaff])
+                .to($('#mainContainer'), 1, {
+                    opacity: 1
+                })
+                .call(scrollStaff)
+                .to($('#mainContainer'), 1, {
+                    opacity: 0
+                }, "+=4")
+                .call(resetScroll);
+        });
     }
 
     function updateElements(title, staff) {
