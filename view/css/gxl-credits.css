@@ -19,7 +19,6 @@ body {
   position: absolute;
   width: 1280px;
   height: 720px;
-  background: url(https://dl.dropboxusercontent.com/u/6635591/process.jpeg) no-repeat;
 }
 #bounds {
   width: 100%;
@@ -91,10 +90,10 @@ body {
   height: 172px;
 }
 #corsair {
-  top: 75px;
-  left: 452px;
-  width: 364px;
-  height: 323px;
+  top: 38px;
+  left: 406px;
+  width: 534px;
+  height: 384px;
 }
 #zowie {
   top: 476px;
