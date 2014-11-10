@@ -1,0 +1,255 @@
+[
+	{
+		"title": ".event",
+		"staff": [
+			"cevo & gxl logos"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": ".sponsor",
+		"staff": [
+			"corsair, pbl & zowie"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": ".cast",
+		"staff": [
+			"eXtv & tftv"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "Live Graphics Design",
+		"staff": [
+			"Ballistique",
+			"Alex 'Dashner' Pylyshyn"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "NodeCG Development",
+		"staff": [
+			"Alex 'Lange' Van Camp",
+			"Matt 'Bluee' McNamara"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "NodeCG Operators",
+		"staff": [
+			"Alex 'Lange' Van Camp",
+			"Alex 'Dashner' Pylyshyn"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "In-Game Camera",
+		"staff": [
+			"Kurtis 'TrukTruk' Russ",
+			"Kevin 'IsPwn' Carpenter",
+			"Alex 'Lange' Van Camp",
+			"Arie Meeldjik"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "Live Cameras",
+		"staff": [
+			"Andy 'Bones' Luther",
+			"Austen 'Tagg' Wade",
+			"Alex 'Lange' Van Camp"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "Instant Replay Operators",
+		"staff": [
+			"Alex 'Lange' Van Camp",
+			"Kevin 'IsPwn' Carpenter",
+			"Joshua 'Kappy' S."
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "Audio Engineering and Sound Design",
+		"staff": [
+			"Anthony 'Airon' Oetzmann"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "Vision Mixing",
+		"staff": [
+			"Alex 'Dashner' Pylyshyn"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "Video Editing",
+		"staff": [
+			"Alex 'Dashner' Pylyshyn"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "Tech Assistance and Server Administration",
+		"staff": [
+			"Alex 'Shadowpuppet' Williams",
+			"Arie Meeldjik",
+			"Nicolas Pier"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "eXtv TF2 Casting HUD Design",
+		"staff": [
+			"Ian 'Rays' Bruton"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "Source Filmmaker Artist",
+		"staff": [
+			"Alex 'Dashner' Pylyshyn"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "Casting Plugins",
+		"staff": [
+			"StatusSpec",
+			"TheSupremeCommander",
+			"Matt 'Bluee' McNamara",
+			"Spec Tools",
+			"Gentleman Jon"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "eXtv Intro Music",
+		"staff": [
+			"Craig eXtine",
+			"w/ Western Hymns"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "Streaming Software",
+		"staff": [
+			"Open Broadcaster Software",
+			"obsproject.com"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "OBS Browser Source and Video Plugin",
+		"staff": [
+			"John 'Faruton' Bradley"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "Live Stats via logs.TF",
+		"staff": [
+			"Zoob"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "Commentary",
+		"staff": [
+			"Anthony 'gecks' Miserendino",
+			"Mike 'getawhale' Lockman",
+			"Alex 'Lange' Van Camp",
+			"Jeff eXtine",
+			"CommanderX",
+			"Austen 'tagg' Wade",
+			"Sean 'seanbud' Stradley",
+			"Nick 'TheFragile' Leon"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "Executive Producer",
+		"staff": [
+			"Jeff eXtine"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "GXL Stream Coverage Produced by",
+		"staff": [
+			"Alex 'Dashner' Pylyshyn",
+			"Alex 'Lange' Van Camp"
+		],
+		"fadeIn": 1,
+		"duration": 4,
+		"fadeOut": 1
+	},
+	{
+		"title": "Special Thanks",
+		"staff": [
+			"Kyle Turk",
+			"Jace O’Steen",
+			"Nick 'TheFragile' Leon",
+			"Anthony 'Airon' Oetzmann",
+			"Matt 'Bluee' McNamara",
+			"Alex 'Lange' Van Camp",
+			"John 'Faruton' Bradley",
+			"John 'Twitch John' Howell",
+			"Ben 'Benk' Kaberle",
+			"Nicholas Pier",
+			"Chris Pipher",
+			"Mahoney"
+		],
+		"fadeIn": 1,
+		"duration": 10,
+		"fadeOut": 1
+	}
+]
