@@ -1,12 +1,16 @@
 {
   "name": "gxl-credits",
   "version": "0.0.1",
-  "nodecgDependency": "^0.0.1",
+  "nodecgDependency": "^0.1.3",
   "homepage": "",
   "authors": [],
   "description": "",
   "resolutions": [
     "*"
   ],
-  "license": "Private"
+  "license": "MIT",
+  "extension": {
+    "express": true,
+    "path": "index.js"
+  }
 }
