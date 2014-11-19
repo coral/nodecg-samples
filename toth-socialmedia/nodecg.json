@@ -1,7 +1,7 @@
 {
   "name": "toth-socialmedia",
   "version": "0.0.1",
-  "nodecgDependency": "~0.0.1",
+  "nodecgDependency": "~0.2.1",
   "homepage": "http://tipofthehats.org/",
   "authors": [
     "Alex Van Camp <email@alexvan.camp>",
