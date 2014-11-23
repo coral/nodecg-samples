@@ -3,7 +3,7 @@
  * Reports duration to admin panel
  */
 
-modules.export = function(nodecg) {
+module.export = function(nodecg) {
     var express = require('express'),
         app = express(),
         fs = require('fs');
