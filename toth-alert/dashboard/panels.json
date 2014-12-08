@@ -1,0 +1,9 @@
+[
+  {
+    "name": "alert-message",
+    "title": "Alert Message",
+    "width": 2,
+    "file": "panel.jade",
+    "faIcon": "fa-bell-o"
+  }
+]

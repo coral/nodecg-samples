@@ -1,0 +1,9 @@
+[
+  {
+    "name": "social-media-links",
+    "title": "Social Media Links",
+    "width": 2,
+    "file": "panel.jade",
+    "faIcon": "fa-twitter"
+  }
+]

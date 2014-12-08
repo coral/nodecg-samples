@@ -2,9 +2,9 @@ $(document).on('ncgReady', function () {
     // pass data straight into our function that handles it, preferred for simplicity
     nodecg.listenFor('socialmediaIn', showLinks);
     nodecg.listenFor('socialmediaOut', hideLinks);
-    nodecg.listenFor('socialmediaPulse', function (data) {
+    nodecg.listenFor('socialmediaPulse', function (duration) {
         showLinks();
-        setTimeout(hideLinks, (1000 * data.duration));
+        setTimeout(hideLinks, (1000 * duration));
     });
 
     // Really not sure why I have to do this, but the first cycle doesn't animate correctly otherwise
