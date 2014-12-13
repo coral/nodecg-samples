@@ -1,11 +1,12 @@
 {
   "name": "obs-remote",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "nodecgDependency": "~0.2.1",
   "homepage": "",
   "authors": [
-    "Matt McNamara <matt@mattmcn.com>"
+    "Matthew McNamara <matt@mattmcn.com>"
   ],
-  "description": "An admin panel for controlling OBS remotely",
+  "description": "An admin panel for controlling Open Broadcaster Software (OBS)",
   "resolutions": [
     "*"
   ],

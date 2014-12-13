@@ -1,0 +1,17 @@
+.input-group
+    span.input-group-addon Address
+    input#address.form-control(type="text", placeholder="localhost")
+    span.input-group-btn
+        button#connect.btn.btn-default.btn-primary Connect
+
+div(style="padding-top: 4px") Status:&nbsp;
+    span#connectionStatus ?
+
+hr
+
+.ncg-btn-group
+    .btn-group.btn-group-justified
+        .btn-group
+            button#toggleStream.btn.btn-xs.btn-primary Start Stream
+        .btn-group
+            button#togglePreview.btn.btn-xs.btn-primary Start Preview

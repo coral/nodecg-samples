@@ -1,0 +1,9 @@
+[
+  {
+    "name": "obs-remote",
+    "title": "OBS Remote",
+    "width": 2,
+    "file": "panel.jade",
+    "faIcon": "fa-video-camera"
+  }
+]
